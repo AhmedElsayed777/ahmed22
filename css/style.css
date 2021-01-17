@@ -1,0 +1,116 @@
+body
+{
+font-family: 'Open Sans', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+/*--start landing design---*/
+.landing-design
+{
+    
+    min-width: 100vh;
+    background-image:url("../images/5.jpg");
+    background-size: cover;
+     position: relative;
+     height: 900px;
+     background-size: 100%;
+     margin-top: 0px;
+}
+
+.landing-design .overlay
+
+{
+    background-color:#0000003d ;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top :0;
+    left :0 ;
+    z-index: 1;
+    
+    margin-top: 0px;
+    
+}
+.header-area
+{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    
+}
+.header-area .logo
+{
+    width:300px;
+    padding : 15px;
+     padding-left: 64px;
+     font-size: 25px;
+     color:#fff;
+    
+}
+ .header-area .links 
+{
+ list-style: none;
+ padding-left: 0;
+ width:  100%;
+ text-align: right;
+ padding-right: 190px;
+    
+       
+ }
+ 
+ .header-area .links  li
+ {
+    
+    display: inline-block;
+    margin-left :25px; 
+    
+ }
+  .header-area .links  li a
+ {
+    
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s ;
+    
+ }
+ 
+ .header-area .links  li a:hover,
+ .header-area .links  li .active
+
+ {
+  color:#ffc804;
+  
+ }
+ 
+ .intro-text
+ {
+    
+    position: absolute;
+    left: 41%;
+    top : 31%;
+    transform: translate(-31% , -11%);
+    color: #fdfdfd;
+    font-size: 23px;
+    z-index: 2;
+    text-align: center;
+    
+ }
+ 
+  .intro-text p
+ {color:#fbfffe}
+ .intro-text span.point2
+ {
+    color: #ffc804;
+ 
+
+ }
+ .point{
+     border: 6px solid #ffc804 ;
+  
+ 
+ }
+ 
+
+/*--end landing page---*/
